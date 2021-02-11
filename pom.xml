@@ -43,7 +43,7 @@
     <dependency>
       <groupId>com.graphql-java</groupId>
       <artifactId>graphql-java</artifactId>
-      <version>2020-12-12T02-26-00-5e61bb3</version>
+      <version>2021-02-10T08-16-57-4dbf45fd</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
     <dependency>
