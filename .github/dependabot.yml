@@ -1,0 +1,40 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: com.graphql-java:graphql-java
+    versions:
+    - 2021-01-27T06-23-16-986ee60
+    - 2021-01-31T07-23-49-4d37858
+    - 2021-02-02T04-19-10-0e6921e1
+    - 2021-02-06T05-29-55-33cd6e60
+    - 2021-02-10T08-16-57-4dbf45fd
+    - 2021-02-13T23-17-27-86627c27
+    - 2021-02-17T06-17-55-6ffdd2d5
+    - 2021-02-28T11-48-01-dc2cdda7
+    - 2021-03-19T00-06-52-e166c255
+    - 2021-03-25T21-09-07-5bc917f7
+    - 2021-03-29T05-13-32-fdea5cfc
+    - 2021-03-30T02-57-48-22314931
+    - 2021-04-11T23-47-53-93cc5158
+    - 2021-04-19T03-51-46-d783ec7e
+    - 2021-04-27T02-21-11-eb3afc27
+  - dependency-name: com.google.apis:google-api-services-sheets
+    versions:
+    - v4-rev20210223-1.31.0
+    - v4-rev20210309-1.31.0
+    - v4-rev20210316-1.31.0
+  - dependency-name: com.google.api-client:google-api-client
+    versions:
+    - 1.31.2
+    - 1.31.3
+  - dependency-name: com.smartsheet:smartsheet-sdk-java
+    versions:
+    - 2.120.0
+  - dependency-name: com.google.oauth-client:google-oauth-client-jetty
+    versions:
+    - 1.31.4
